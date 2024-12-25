@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: pink;
+  padding: 30px 80px;
+}
+header .kala {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+header .kala img {
+  width: 120px;
+  height: 20px;
+}
+header .kala .p1 {
+  display: flex;
+  font-size: 23px;
+  gap: 20px;
+}
+header .kala .but1 {
+  display: flex;
+  gap: 20px;
+}
+header .kala .but1 .bt1 {
+  background-color: orangered;
+  color: white;
+}
+header .kala .but1 button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+}
+header .poin {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  padding: 60px 0px;
+}
+header .poin .sec1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .poin .sec1 img {
+  width: 170px;
+}
+header .poin .sec1 h1 {
+  font-size: 60px;
+}
+header .poin .sec1 .but2 button {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+  background-color: orangered;
+  color: white;
+}
+header .poin .sec1 .but2 .bt2 {
+  border: 2px solid orangered;
+  width: 140px;
+  background-color: white;
+  color: orangered;
+  border-radius: 10px;
+}
+header .poin .img {
+  width: 600px;
+  height: 550px;
+}
+header .pain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+header .pain p span {
+  font-size: 40px;
+  font-weight: 600px;
+}
+
+.sectia {
+  display: flex;
+  padding: 40px 100px;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.sectia img {
+  width: 560px;
+  height: 400px;
+}
+.sectia div {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.sectia div .black {
+  color: black;
+  font-size: 20px;
+}
+.sectia div h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.sectia div p {
+  color: gray;
+}
+.sectia div button {
+  background-color: orangered;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.bomb1 .sec4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 140px;
+}
+.bomb1 .sec4 button {
+  border: 2px solid orangered;
+  width: 200px;
+  height: 40px;
+  color: orangered;
+  border-radius: 10px;
+}
+.bomb1 .sec5 {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.bomb1 .sec5 .fon {
+  width: 550px;
+  height: 210px;
+  display: flex;
+  gap: 20px;
+}
+.bomb1 .sec5 .fon div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 0px;
+}
+.bomb1 .sec5 .fon div button {
+  width: 80px;
+  height: 20px;
+  border: 0;
+  background-color: aqua;
+  color: white;
+  border-radius: 10px;
+}
+
+.bomb2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bomb2 .div {
+  text-align: center;
+  padding: 20px 0px;
+}
+.bomb2 .but3 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.bomb2 .but3 button {
+  width: 230px;
+  height: 30px;
+  border-radius: 10px;
+  border: 0;
+}
+.bomb2 .aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bomb2 .aside div {
+  width: 400px;
+  height: 190px;
+}
+.bomb2 .aside div h1 {
+  font-size: 30px;
+  padding: 20px 0px;
+}
+.bomb2 .aside img {
+  width: 600px;
+  height: 440px;
+}
+
+.bomb3 {
+  padding: 40px 0px;
+}
+.bomb3 .text1 {
+  text-align: center;
+  padding: 20px 0px;
+}
+.bomb3 .text1 p {
+  font-size: 20px;
+}
+.bomb3 .text1 h1 {
+  font-size: 50px;
+}
+.bomb3 .div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.bomb3 .div1 .div2 {
+  background-color: white;
+  display: flex;
+  width: 1200px;
+  height: 30px;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+}
+.bomb3 .div1 .div2 button {
+  width: 100px;
+  height: 30px;
+}
+.bomb3 .div4 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 20px;
+}
+.bomb3 .div4 button {
+  width: 200px;
+  border: 0;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.bomb4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+.bomb4 div {
+  width: 400px;
+  height: 334px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.bomb4 div img {
+  width: 400px;
+  height: 50px;
+}
+.bomb4 img {
+  width: 700px;
+  height: 500px;
+}
+
+.bomb5 .texti {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 800px;
+}
+.bomb5 .bobmi {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 90px;
+}
+.bomb5 .bobmi div {
+  text-align: center;
+}
+.bomb5 .bobmi div img {
+  width: 285px;
+  height: 340px;
+}
+
+.sec7 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 100px 0px;
+}
+.sec7 .div11 {
+  width: 390px;
+  height: 477px;
+  display: flex;
+  flex-direction: column;
+}
+.sec7 .div11 .par5 {
+  width: 380px;
+}
+.sec7 .div11 .par6 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.ohironsh {
+  height: 315px;
+  background-color: #fad5d5;
+  padding-top: 40px;
+  margin: 0;
+}
+.ohironsh .img1 {
+  position: absolute;
+  margin-top: 103px;
+  margin-left: 1140px;
+  width: 200px;
+  height: 200px;
+}
+.ohironsh .img2 {
+  position: absolute;
+  margin-top: 103px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+.ohironsh .ohiron2 {
+  width: 810px;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.ohironsh .ohiron2 div button {
+  width: 140px;
+  height: 50px;
+  color: #FFFFFF;
+}
+.ohironsh .ohiron2 div input {
+  margin-right: 10px;
+  width: 322px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+}
+
+footer {
+  width: 100%;
+  height: 396px;
+  background-color: #1E212C;
+}
+footer .sec9 {
+  width: 90%;
+  height: 396px;
+  margin: auto;
+  display: flex;
+  align-items: end;
+  gap: 10px;
+}
+footer .a1 {
+  width: 280px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+}
+footer .a1 p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #FFFFFF;
+}
+footer .a1 .a2 {
+  width: 79px;
+}
+footer .a1 input {
+  width: 190px;
+  height: 26px;
+  background-color: #1E212C;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+footer .a1 h3 {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
